@@ -38,7 +38,7 @@ def line_chart(req):
 @api_view(['GET'])
 def pie_chart(req):
     data={
-        "labels": ["Red", "Blue", "Yellow"],
-        "data": [300, 50, 100]
+        "labels": ["Red", "Blue", "Yellow", "cyan"],
+        "data": [300, 50, 100, 500]
     }
     return Response(data)
