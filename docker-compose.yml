@@ -1,0 +1,9 @@
+version: '3.10'
+
+services:
+  django:
+    image: hexa7675/next-django-chart-backend:0.0.1.RELEASE
+    build: .
+    ports:
+      -"6000:6000"
+
